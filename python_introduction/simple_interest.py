@@ -1,10 +1,10 @@
 # Programme to calculate simple interest
 
-principal = 2000 #Principal
+principal = 1000 #Principal
 
-rate = 20/100 #Rate(100)
+rate = 0.05 #Rate(100)
 
-time = 2 #Time(years)
+time = 3 #Time(years)
 
 interest = time * rate * principal #Interest
 print("The simple interest is: ",interest)
