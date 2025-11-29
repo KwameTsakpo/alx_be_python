@@ -43,6 +43,7 @@ while user_choice != 4:
     print("1. Add Product")
     print("2. Display Product")
     print("3. Calculate Total of products in stock")
+    print("4. Exit")
     
     user_choice = int(input("Please enter an option: "))
 
@@ -55,7 +56,7 @@ while user_choice != 4:
             product.totalOfProducts()
         case 4:
             print("Thank you for shopping with us")
-            break;
+            break
         case _:
             print("Invalid input. Please try again.")
 
