@@ -1,0 +1,43 @@
+Syntax
+Output
+Variables
+Data Types
+Casting
+Lists
+Tuples
+Sets
+Dictionaries
+split('')
+import random
+random.choice()
+if elif else
+isinstance()
+not in
+for loop
+in
+range
+while loop
+function/methods
+modules*
+file handling*
+try except else finally
+classes objects
+__init__
+self parameter
+inheritance
+private and protected access modifiers
+super() methods
+Polymorphism
+assert *
+import csv
+csv.DictReader()
+csv.DictWriter()
+.writeheader()
+writerows()
+math
+duck_typing
+@classmethod
+@staticmethod
+@property
+@setter
+serialization and deserialization using import pickle/json
