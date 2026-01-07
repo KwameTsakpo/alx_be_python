@@ -1,0 +1,85 @@
+
+|-- Intro_to_DB
+|   `-- alx_book_store.sql
+|-- __pycache__
+|   |-- book_class.cpython-313.pyc
+|   |-- calculator.cpython-313.pyc
+|   |-- random.cpython-313.pyc
+|   `-- unittest.cpython-313.pyc
+|-- alumni_platform
+|   `-- auth
+|       |-- __init__.py
+|       `-- auth.py
+|-- basic_operations.py
+|-- book_class.py
+|-- calculator.py
+|-- classMethod_1.py
+|-- class_inheritance.py
+|-- classes_object_1.py
+|-- classes_object_2.py
+|-- control-flow
+|   |-- daily_reminder.py
+|   |-- match_case_calculator.py
+|   |-- multiplication_table.py
+|   |-- pattern_drawing.py
+|   `-- weather_advice.py
+|-- csv_tryout.py
+|-- csv_tryout2.py
+|-- custom_exception.py
+|-- data_types.py
+|-- del.py
+|-- error_handling_ZeroDivisionError.py
+|-- file_handling_error_handling.py
+|-- fns_and_dsa
+|   |-- __pycache__
+|   |   `-- arithmetic_operations.cpython-313.pyc
+|   |-- arithmetic_operations.py
+|   |-- explore_datetime.py
+|   |-- main.py
+|   |-- shopping_list_manager.py
+|   `-- temp_conversion_tool.py
+|-- for_loops.py
+|-- info.json
+|-- item.csv
+|-- items.csv
+|-- learnUnittest.py
+|-- lessons.txt
+|-- list.py
+|-- magic_methods.py
+|-- main.py
+|-- main_book_class.py
+|-- mulitiple_inheritance.py
+|-- mysql_connector.py
+|-- oop
+|   |-- book_class.py
+|   |-- class_static_methods_demo.py
+|   |-- library_system.py
+|   |-- main.py
+|   `-- polymorphism_demo.py
+|-- poly_duck_typing.py
+|-- programming_paradigm
+|   |-- bank_account.py
+|   |-- library_management.py
+|   |-- main-0.py
+|   |-- main.py
+|   |-- main_2.py
+|   |-- robust_division_calculator.py
+|   |-- simple_calculator.py
+|   `-- test_simple_calculator.py
+|-- python_introduction
+|   |-- basic_operations.py
+|   |-- finance_calculator.py
+|   |-- future_age_calculator.py
+|   |-- hours_to_seconds.py
+|   |-- print.py
+|   |-- rectangle_area.py
+|   `-- simple_interest.py
+|-- random.py
+|-- random.txt
+|-- serial_deserialization.py
+|-- single_inheritance.py
+|-- test.py
+|-- tree.txt
+`-- weather.py
+
+10 directories, 72 files

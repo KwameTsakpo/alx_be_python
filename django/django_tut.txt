@@ -1,0 +1,52 @@
+INSTALL DJANGO
+python -m venv project_name
+
+ACTIVATE VIRTUAL ENVIRONMENT
+start project_name/Scripts/activate.bat
+
+INSTALL DJANGO
+pip install django
+
+START PROJECT
+django-admin startproject project_folder_location
+
+RUNSERVER
+python manage.py runserver
+
+CREATE APP
+python manage.py startapp app_name
+
+VIEWS
+from django.http import HttpResponse
+def members(request):
+    return HttpResponse("Hello world!")
+
+URLS
+//create urls.py in app folder
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('members/', views.members, name='members'),
+]
+//edit urls.py in project folder
+from django.contrib import admin
+from django.urls import include, path
+urlpatterns = [
+    path('', include('members.urls')),
+    path('admin/', admin.site.urls),
+]
+
+Templates
+//create template folder inside app folder
+//Create html files and write code in it
+//open view.py in app folder and edit it to this:
+from django.http import HttpResponse
+from django.template import loader
+def members(request):
+  template = loader.get_template('html_file')
+  return HttpResponse(template.render())
+//change settings to mitigate new app
+//go to setting.py and add app name to INSTALLED_APPS list
+//run python manage.py migrate
+
+Models
